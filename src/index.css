@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #fff;
+    color: #171717;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: #171717;
+    color: #fff;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    background-color: #fff;
+    color: #171717;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: #171717;
+    color: #fff;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
