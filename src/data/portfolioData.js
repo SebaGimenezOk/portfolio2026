@@ -1,14 +1,16 @@
- export const personalInfo = {
+export const personalInfo = {
   name: "Sebastian Gimenez",
-  role: "Programador & Analista de Datos",
-  description: "Desarrollador de aplicaciones web y móviles con experiencia en análisis de datos. Formación en Power BI, SQL Server, Excel y Google Sheets.",
-  about: [
-    "Desarrollador de aplicaciones web y móviles con experiencia en análisis de datos.",
-    "Formación en Power BI, SQL Server, Excel y Google Sheets.",
-    "Experiencia en React Native, Expo Go y Redux para aplicaciones móviles; React, TypeScript y JavaScript para desarrollo web.",
-    "Conocimientos en NodeJS, Express, MySQL y MongoDB.",
-    "Competencia en HTML5, CSS3, SASS y frameworks como Bootstrap y Tailwind CSS.",
-    "Enfoque en soluciones funcionales, optimización de procesos y colaboración en entornos ágiles."
+  role: "Front-End Developer & Mobile Specialist",
+  aboutParagraphs: [
+    "Mi núcleo técnico es el desarrollo Front-end, especialidad en la que me formé y certifiqué en Coderhouse. Me enfoco en crear arquitecturas web limpias, reactivas y altamente escalables utilizando React, TypeScript, JavaScript, HTML5, CSS3/SASS, Tailwind CSS y Bootstrap.",
+    "Para llevar esa misma exigencia de experiencia de usuario al ecosistema mobile, desarrollo aplicaciones nativas con React Native, Expo Go y Redux. Mi stack se completa integrando servicios con NodeJS, Express, MySQL y MongoDB, sumado a un trasfondo sólido en Análisis de Datos (Power BI, SQL Server, Excel y Google Sheets) para optimizar procesos a partir de métricas reales.",
+    "Como parte de mi visión aplicada, impulsé GimenezWebFixer, una iniciativa personal orientada al diagnóstico, optimización y resolución de problemas técnicos para plataformas web. Un proyecto activo donde aplico arquitectura limpia y entregables de alto valor."
+  ],
+  certifications: [
+    { title: "Desarrollo Front-End", institution: "Coderhouse" }
+  ],
+  initiatives: [
+    { name: "GimenezWebFixer", description: "Diagnóstico y optimización web personal" }
   ],
   socials: {
     linkedin: "https://linkedin.com/in/sebastiangimenezlopez",
@@ -20,66 +22,104 @@
 
 export const projects = [
   {
-    id: "radio-naciones",
-    title: "Radio Naciones",
-    description: "Plataforma web moderna para emisora de radio con reproductor en vivo y diseño adaptativo.",
-    tools: ["React", "Tailwind CSS"],
-    link: "https://rdnweb.netlify.app/",
-    featured: true
+    id: "bonami-web",
+    title: "Bonami Web Platform",
+    description: "Plataforma web moderna orientada a la experiencia de usuario, desarrollada con interfaces limpias y alto rendimiento.",
+    tools: ["React", "Tailwind CSS", "TypeScript"],
+    link: "https://github.com/SebaGimenezOk/BonamiWeb",
+    featured: true,
+    longDescription: "Desarrollo integral de la interfaz web para Bonami, enfocada en la velocidad de carga, diseño responsivo estricto y una arquitectura de componentes modular y mantenible.",
+    highlights: [
+      "Arquitectura de componentes limpia con React",
+      "Optimización avanzada de assets y carga ultra rápida",
+      "Diseño adaptativo para todo tipo de pantallas"
+    ],
+    screenshots: [
+      { url: "/images/projects/bonami/web-02.webp", caption: "Vista y flujo inicial de la plataforma web" },
+      { url: "/images/projects/bonami/web-03.webp", caption: "Sección de contenido y detalles" },
+      { url: "/images/projects/bonami/web-04.webp", caption: "Módulo de gestión e interacción" },
+      { url: "/images/projects/bonami/web-05.webp", caption: "Panel de control y visualización" },
+      { url: "/images/projects/bonami/web-06.webp", caption: "Vista final y adaptación de componentes" }
+    ]
   },
   {
-    id: "trax",
-    title: "Trax App",
-    description: "Aplicación móvil multiplataforma desarrollada para traqueo y gestión móvil.",
-    tools: ["React Native", "Expo Go"],
-    link: "https://github.com/SebaGimenezOk/Trax",
-    featured: true
+    id: "bonami-app-native",
+    title: "Bonami Mobile App",
+    description: "Aplicación móvil multiplataforma diseñada para ofrecer una experiencia nativa fluida, navegación por gestos y consumo eficiente.",
+    tools: ["React Native", "Expo Go", "Mobile UI"],
+    link: "https://github.com/SebaGimenezOk/BonamiAppNative",
+    featured: true,
+    longDescription: "Aplicación móvil desarrollada con React Native y Expo, pensada para garantizar fluidez a 60fps, integración con APIs y una interfaz adaptada a patrones de diseño nativos.",
+    highlights: [
+      "Navegación nativa fluida e intuitiva",
+      "Manejo eficiente de estados en el cliente",
+      "Diseño adaptado a estándares móviles modernos"
+    ],
+    screenshots: [
+      { url: "/images/projects/bonami/mobile-001.webp", caption: "Pantalla principal de la app mobile" },
+      { url: "/images/projects/bonami/mobile-02.webp", caption: "Navegación por secciones y vistas secundarias" },
+      { url: "/images/projects/bonami/mobile-03.webp", caption: "Detalles y componentes interactivos" },
+      { url: "/images/projects/bonami/mobile-04.webp", caption: "Flujo de usuario y pantallas de ajuste" }
+    ]
   },
   {
-    id: "simpsons-game",
-    title: "Simpsons Game",
-    description: "Juego interactivo web basado en la famosa serie, desarrollado con lógica JS nativa.",
-    tools: ["JavaScript Vanilla", "HTML5", "CSS3"],
-    link: "https://sebagimenezok.github.io/SimpsonsGame/",
-    featured: true
+    id: "cronicas-de-un-espectador",
+    title: "Crónicas de un Espectador",
+    description: "Plataforma web editorial de crítica cultural y teatro con Headless WordPress, reproductor de audio y optimización SEO.",
+    tools: ["Next.js", "Headless WordPress", "Tailwind CSS", "GraphQL"],
+    link: "https://cronicasdeunespectador.com",
+    featured: true,
+    longDescription: "Desarrollo completo de la plataforma editorial integrando Next.js en el frontend con Headless WordPress vía GraphQL. Implementación de reproductores de audio personalizados, campos ACF y rendimiento optimizado para Core Web Vitals.",
+    highlights: [
+      "Arquitectura Jamstack enfocada en velocidad y SEO",
+      "Player de audio integrado para contenidos culturales",
+      "Gestión de contenidos desACOPLADA (Headless CMS)"
+    ],
+    screenshots: [
+      { url: "/images/projects/cronicas/cronicas 01.webp", caption: "Portada principal y diseño editorial" },
+      { url: "/images/projects/cronicas/cronicas 02.webp", caption: "Banners y secciones recientes" },
+      { url: "/images/projects/cronicas/cronicas 03.webp", caption: "Banners newsletter y asociados" },
+      { url: "/images/projects/cronicas/cronicas 04.webp", caption: "Listas de audios" },
+      { url: "/images/projects/cronicas/cronicas 05.webp", caption: "Versión de temporadas" },
+      { url: "/images/projects/cronicas/cronicas 06.webp", caption: "Versión categorias" }
+
+    ]
   },
   {
-    id: "pontecle",
-    title: "PonteCle",
-    description: "Sitio web maquetado responsivo utilizando estándares web modernos.",
-    tools: ["HTML5", "CSS3"],
-    link: "https://sebagimenezok.github.io/Pontecle26/",
-    featured: false
-  },
-  {
-    id: "tienda-react",
-    title: "Tienda React",
-    description: "E-commerce e interfaz de compras con gestión de estado en el cliente.",
-    tools: ["React", "Bootstrap"],
-    link: "https://github.com/SebaGimenezOk/tienda-React",
-    featured: false
-  },
-  {
-    id: "tropiweb",
-    title: "Tropiweb",
-    description: "Aplicación web orientada a la presentación de servicios y contenido dinámico.",
-    tools: ["React", "Bootstrap"],
-    link: "https://github.com/SebaGimenezOk/TropiWeb/tree/master",
-    featured: false
+    id: "gimenez-web-fixer",
+    title: "GimenezWebFixer",
+    description: "Identidad visual y single-page de servicios de desarrollo front-end, optimización y resolución de problemas técnicos.",
+    tools: ["React", "Vite", "Tailwind CSS"],
+    link: "https://github.com/SebaGimenezOk", // O el link correspondiente
+    featured: true,
+    longDescription: "Landing page corporativa y de servicios orientada al diagnóstico, optimización de performance y soluciones front-end a medida. Diseñada bajo una estética minimalista y profesional.",
+    highlights: [
+      "Identidad visual minimalista B&W con isotipo personalizado",
+      "Estructura orientada a conversión y contacto rápido",
+      "Cero fricción y máxima velocidad de carga"
+    ],
+    screenshots: [
+      { url: "/images/projects/gimenezwebfixer/gwf 01.webp", caption: "Hero section y propuesta de valor" },
+      { url: "/images/projects/gimenezwebfixer/gwf 02.webp", caption: "Secciones especializdas" },
+      { url: "/images/projects/gimenezwebfixer/gwf 03.webp", caption: "Modal interactivo intiutivo" },
+      { url: "/images/projects/gimenezwebfixer/gwf 04.webp", caption: "Modal interactivo intiutivo" },
+       { url: "/images/projects/gimenezwebfixer/gwf 05.webp", caption: "Modulos de Diagnostico" },
+      
+    ]
   }
 ];
 
 export const skillCategories = [
   {
     category: "Front-End",
-    skills: ["JavaScript", "React", "Next.js", "Astro", "Tailwind CSS", "Bootstrap", "Material UI"]
+    skills: ["TypeScript", "JavaScript", "React", "Next.js", "Astro", "Tailwind CSS", "Bootstrap", "Material UI"]
   },
   {
     category: "Data Analytics & Back-End",
-    skills: ["Power BI", "Tableau", "Python", "SQL Server", "Node.js", "MongoDB"]
+    skills: ["Power BI", "Tableau", "Python", "SQL Server", "Node.js", "MongoDB", "Express", "MySQL"]
   },
   {
     category: "Mobile",
-    skills: ["React Native", "Expo Go", "Android Studio", "Xcode"]
+    skills: ["React Native", "Expo Go", "Android Studio", "Xcode", "Flutter", "Dart", "Swift", "Kotlin"]
   }
 ];
