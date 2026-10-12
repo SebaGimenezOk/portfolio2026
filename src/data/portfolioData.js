@@ -52,6 +52,7 @@ export const projects = [
     longDescription: "Aplicación móvil desarrollada con React Native y Expo, pensada para garantizar fluidez a 60fps, integración con APIs y una interfaz adaptada a patrones de diseño nativos.",
     highlights: [
       "Navegación nativa fluida e intuitiva",
+      "Diseño de interfaz de sonido, para reproducción en segundo plano",
       "Manejo eficiente de estados en el cliente",
       "Diseño adaptado a estándares móviles modernos"
     ],
