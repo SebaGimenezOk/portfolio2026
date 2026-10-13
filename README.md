@@ -32,39 +32,19 @@ Portfolio profesional de desarrollo web y mobile enfocado en arquitecturas front
 
 ## 💻 Desarrollo Local
 
-Si querés clonar este proyecto y correrlo localmente:
+Para clonar y correr este proyecto en tu entorno local:
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/SebaGimenezOk/portfolio2026.git](https://github.com/SebaGimenezOk/portfolio2026.git)
-   cd portfolio2026
+* Clonar repositorio: `git clone https://github.com/SebaGimenezOk/portfolio2026.git`
+* Entrar al directorio: `cd portfolio2026`
+* Instalar dependencias: `npm install`
+* Iniciar servidor de desarrollo: `npm run dev`
+* Compilar para producción: `npm run build`
 
-2. **Instalar dependencias:**
-   ```bash
-   npm install
+---
 
-3. **Iniciar Servidor de Desarrollo:**
-   ```bash
-   npm run dev
+## 👤 Contacto
 
-4.**Compilar para Producción:**
-   ```bash
-   npm run build
-
-
-
-5. **Contacto:**
-Sebastián Marcial Giménez López — Frontend & Full Stack Developer
-📍 Buenos Aires, Argentina
-🌐 Web Service: gimenezwebfixer.com
-💼 LinkedIn: linkedin.com/in/sebagimenez
-📧 Email: contacto@gimenezwebfixer.com
-
---
-
-Guardá el archivo, ejecutá tu alias en la terminal:
-
-```bash
-gpass "docs: corrige formato de bloques de codigo en README.md"
-
-
+**Sebastián Marcial Giménez López** — Frontend & Full Stack Developer  
+* 📍 Buenos Aires, Argentina  
+* 🌐 Web Service: [gimenezwebfixer.com](https://gimenezwebfixer.com)  
+* 💼 LinkedIn: [linkedin.com/in/sebagimenez](https://linkedin.com/in/sebagimenez)
