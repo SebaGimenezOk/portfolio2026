@@ -51,9 +51,14 @@ Si querés clonar este proyecto y correrlo localmente:
    ```bash
    npm run build
 
-**Contacto:**
+
+
+5. **Contacto:**
 Sebastián Marcial Giménez López — Frontend & Full Stack Developer
 📍 Buenos Aires, Argentina
 🌐 Web Service: gimenezwebfixer.com
 💼 LinkedIn: linkedin.com/in/sebagimenez
 📧 Email: contacto@gimenezwebfixer.com
+
+
+
