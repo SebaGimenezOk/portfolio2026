@@ -38,3 +38,22 @@ Si querés clonar este proyecto y correrlo localmente:
    ```bash
    git clone [https://github.com/SebaGimenezOk/portfolio2026.git](https://github.com/SebaGimenezOk/portfolio2026.git)
    cd portfolio2026
+
+2. **Instalar dependencias:**
+   ```bash
+   npm install
+
+3. **Iniciar Servidor de Desarrollo:**
+   ```bash
+   npm run dev
+
+4.**Compilar para Producción:**
+   ```bash
+   npm run build
+
+👤 Contacto
+Sebastián Marcial Giménez López — Frontend & Full Stack Developer
+📍 Buenos Aires, Argentina
+🌐 Web Service: gimenezwebfixer.com
+💼 LinkedIn: linkedin.com/in/sebagimenez
+📧 Email: contacto@gimenezwebfixer.com
