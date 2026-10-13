@@ -60,5 +60,11 @@ Sebastián Marcial Giménez López — Frontend & Full Stack Developer
 💼 LinkedIn: linkedin.com/in/sebagimenez
 📧 Email: contacto@gimenezwebfixer.com
 
+--
+
+Guardá el archivo, ejecutá tu alias en la terminal:
+
+```bash
+gpass "docs: corrige formato de bloques de codigo en README.md"
 
 
